@@ -18,7 +18,7 @@
           box-shadow: 0 0 0 0.25rem var(--border-error);
 }
 
-button button::after, button details::after, button label::after, button:not([aria-label]):not([aria-labelledby]):empty::after, [dir]:not([dir="rtl"]):not([dir="ltr"]):not([dir="auto"])::after, h1:empty::after, h2:empty::after, h3:empty::after, h4:empty::after, h5:empty::after, h6:empty::after, h1 [aria-hidden]::after, h2 [aria-hidden]::after, h3 [aria-hidden]::after, h4 [aria-hidden]::after, h5 [aria-hidden]::after, h6 [aria-hidden]::after, html:not([lang]) body::before, html[lang=""] body::before, a button::after, a details::after, a label::after, a[href]:not([aria-label]):not([aria-labelledby]):empty::after, ol > *:not(li):not(script):not(template)::after, ul > *:not(li):not(script):not(template)::after, dl > *:not(dt):not(dd)::after, nav:not([aria-label]):not([aria-labelledby]) ~ nav::after, nav ~ nav:not([aria-label]):not([aria-labelledby])::after, a[href][tabindex="-1"]::after, area[href][tabindex="-1"]::after, input:not([disabled])[tabindex="-1"]::after, select:not([disabled])[tabindex="-1"]::after, textarea:not([disabled])[tabindex="-1"]::after, button:not([disabled])[tabindex="-1"]::after, iframe[tabindex="-1"]::after, [contentEditable="true"][tabindex="-1"]::after, [accesskey]::after, [onclick]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onclick][onkeyup]:not([tabindex]):not(a):not(button)::after, [onclick][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onclick][onkeydown]:not([tabindex]):not(a):not(button)::after, [onclick][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onclick][onkeypress]:not([tabindex]):not(a):not(button)::after, [onclick][onkeypress][tabindex="-1"]:not(a):not(button)::after, [ondblclick]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [ondblclick][onkeyup]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeyup][tabindex="-1"]:not(a):not(button)::after, [ondblclick][onkeydown]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeydown][tabindex="-1"]:not(a):not(button)::after, [ondblclick][onkeypress]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmousedown]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onmousedown][onkeyup]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onmousedown][onkeydown]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onmousedown][onkeypress]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmouseup]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onmouseup][onkeyup]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onmouseup][onkeydown]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onmouseup][onkeypress]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmouseover]:not(a):not(button)::after, [onmouseenter]:not(a):not(button)::after, [onmouseleave]:not(a):not(button)::after, [style*="!important"]::after, a[target="_blank"]::after, u::after {
+button button::after, button details::after, button label::after, button:not([aria-label]):not([aria-labelledby]):empty::after, [dir]:not([dir="rtl"]):not([dir="ltr"]):not([dir="auto"])::after, h1:empty::after, h2:empty::after, h3:empty::after, h4:empty::after, h5:empty::after, h6:empty::after, h1 [aria-hidden]::after, h2 [aria-hidden]::after, h3 [aria-hidden]::after, h4 [aria-hidden]::after, h5 [aria-hidden]::after, h6 [aria-hidden]::after, html:not([lang]) body::before, html[lang=""] body::before, a button::after, a details::after, a label::after, a[href]:not([aria-label]):not([aria-labelledby]):empty::after, ol > *:not(li):not(script):not(template)::after, ul > *:not(li):not(script):not(template)::after, dl > *:not(dt):not(dd)::after, nav:not([aria-label]):not([aria-labelledby]) ~ nav::after, nav ~ nav:not([aria-label]):not([aria-labelledby])::after, a[href][tabindex="-1"]::after, area[href][tabindex="-1"]::after, input:not([disabled])[tabindex="-1"]::after, select:not([disabled])[tabindex="-1"]::after, textarea:not([disabled])[tabindex="-1"]::after, button:not([disabled])[tabindex="-1"]::after, iframe[tabindex="-1"]::after, [contentEditable="true"][tabindex="-1"]::after, label:not(:has(input)):not([for])::after, label[for=""]::after, [accesskey]::after, [onclick]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onclick][onkeyup]:not([tabindex]):not(a):not(button)::after, [onclick][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onclick][onkeydown]:not([tabindex]):not(a):not(button)::after, [onclick][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onclick][onkeypress]:not([tabindex]):not(a):not(button)::after, [onclick][onkeypress][tabindex="-1"]:not(a):not(button)::after, [ondblclick]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [ondblclick][onkeyup]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeyup][tabindex="-1"]:not(a):not(button)::after, [ondblclick][onkeydown]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeydown][tabindex="-1"]:not(a):not(button)::after, [ondblclick][onkeypress]:not([tabindex]):not(a):not(button)::after, [ondblclick][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmousedown]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onmousedown][onkeyup]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onmousedown][onkeydown]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onmousedown][onkeypress]:not([tabindex]):not(a):not(button)::after, [onmousedown][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmouseup]:not(a):not(button):not([onkeydown]):not([onkeyup]):not([onkeypress])::after, [onmouseup][onkeyup]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeyup][tabindex="-1"]:not(a):not(button)::after, [onmouseup][onkeydown]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeydown][tabindex="-1"]:not(a):not(button)::after, [onmouseup][onkeypress]:not([tabindex]):not(a):not(button)::after, [onmouseup][onkeypress][tabindex="-1"]:not(a):not(button)::after, [onmouseover]:not(a):not(button)::after, [onmouseenter]:not(a):not(button)::after, [onmouseleave]:not(a):not(button)::after, [style*="!important"]::after, a[target="_blank"]::after, u::after {
   display: block;
   font-size: 1.2rem;
   font-weight: 700;
@@ -26,7 +26,7 @@ button button::after, button details::after, button label::after, button:not([ar
   border-radius: 0.75rem;
 }
 
-button button::after, button details::after, button label::after, button:not([aria-label]):not([aria-labelledby]):empty::after, [dir]:not([dir="rtl"]):not([dir="ltr"]):not([dir="auto"])::after, h1:empty::after, h2:empty::after, h3:empty::after, h4:empty::after, h5:empty::after, h6:empty::after, h1 [aria-hidden]::after, h2 [aria-hidden]::after, h3 [aria-hidden]::after, h4 [aria-hidden]::after, h5 [aria-hidden]::after, h6 [aria-hidden]::after, html:not([lang]) body::before, html[lang=""] body::before, a button::after, a details::after, a label::after, a[href]:not([aria-label]):not([aria-labelledby]):empty::after, ol > *:not(li):not(script):not(template)::after, ul > *:not(li):not(script):not(template)::after, dl > *:not(dt):not(dd)::after, nav:not([aria-label]):not([aria-labelledby]) ~ nav::after, nav ~ nav:not([aria-label]):not([aria-labelledby])::after, a[href][tabindex="-1"]::after, area[href][tabindex="-1"]::after, input:not([disabled])[tabindex="-1"]::after, select:not([disabled])[tabindex="-1"]::after, textarea:not([disabled])[tabindex="-1"]::after, button:not([disabled])[tabindex="-1"]::after, iframe[tabindex="-1"]::after, [contentEditable="true"][tabindex="-1"]::after {
+button button::after, button details::after, button label::after, button:not([aria-label]):not([aria-labelledby]):empty::after, [dir]:not([dir="rtl"]):not([dir="ltr"]):not([dir="auto"])::after, h1:empty::after, h2:empty::after, h3:empty::after, h4:empty::after, h5:empty::after, h6:empty::after, h1 [aria-hidden]::after, h2 [aria-hidden]::after, h3 [aria-hidden]::after, h4 [aria-hidden]::after, h5 [aria-hidden]::after, h6 [aria-hidden]::after, html:not([lang]) body::before, html[lang=""] body::before, a button::after, a details::after, a label::after, a[href]:not([aria-label]):not([aria-labelledby]):empty::after, ol > *:not(li):not(script):not(template)::after, ul > *:not(li):not(script):not(template)::after, dl > *:not(dt):not(dd)::after, nav:not([aria-label]):not([aria-labelledby]) ~ nav::after, nav ~ nav:not([aria-label]):not([aria-labelledby])::after, a[href][tabindex="-1"]::after, area[href][tabindex="-1"]::after, input:not([disabled])[tabindex="-1"]::after, select:not([disabled])[tabindex="-1"]::after, textarea:not([disabled])[tabindex="-1"]::after, button:not([disabled])[tabindex="-1"]::after, iframe[tabindex="-1"]::after, [contentEditable="true"][tabindex="-1"]::after, label:not(:has(input)):not([for])::after, label[for=""]::after {
   color: var(--text-error);
   border: 0.4rem solid var(--border-error);
   background-color: var(--bg-error);
@@ -173,38 +173,28 @@ u::after {
   content: "WARNING: Using <u> element could be confused as a hyperlink, consider using a different element such as <em> or <b>." !important;
 }
 
-label:not([for]){
-  border: var(--checka11y-error-border-width, 5px) solid var(--checka11y-error-color, red) !important;
+label:not(:has(input)):not([for])::after {
+  content: "ERROR: Ensure that <label> is always provided with a [for] attribute." !important;
 }
 
-label:not([for])::after{
-  content: "ERROR: Ensure that <label> is always provided with a [for] attribute" !important;
-  font-family: var(--checka11y-font, cursive);
+label[for=""]::after {
+  content: "ERROR: Ensure the [for] attribute on a <label> is not empty." !important;
 }
 
-label[for=""]{
-  border: var(--checka11y-error-border-width, 5px) solid var(--checka11y-error-color, red) !important;
+input:not([name]) {
+  border: 0.4rem solid var(--border-error);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400px" height="80px" viewBox="0 0 400 80"><rect class="box" x="4" y="4" width="392" height="72" rx="12" ry="12" fill="rgba(255,198,198,0.999999)" stroke-width="0.4rem" stroke="rgba(255,0,0,0.999999)" /><g fill="rgba(114,28,36,0.999999)" font-size="1.2rem" font-weight="bold" font-family="Verdana, Geneva, Tahoma, sans-serif"><text x="15" y="35">Ensure that &lt;input&gt; is always</text> <text x="15" y="60">provided with a [name] attribute.</text></g></svg>');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-width: 400px;
+  padding-bottom: 80px;
 }
 
-label[for=""]::after{
-  content: "ERROR: Ensure that [for] in a <label> is not empty" !important;
-  font-family: var(--checka11y-font, cursive);
-}
-
-input:not([name])::after{
-  border: var(--checka11y-error-border-width, 5px) solid var(--checka11y-error-color, red) !important;
-}
-
-input:not([name])::after{
-  content: "ERROR: Ensure that <input> is always provided with a [name] attribute" !important;
-  font-family: var(--checka11y-font, cursive);
-}
-
-input[name=""]::after{
-  border: var(--checka11y-error-border-width, 5px) solid var(--checka11y-error-color, red) !important;
-}
-
-input[name=""]::after{
-  content: "ERROR: Ensure that [name] in a <input> is not empty" !important;
-  font-family: var(--checka11y-font, cursive);
+input[name=""] {
+  border: 0.4rem solid var(--border-error);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400px" height="80px" viewBox="0 0 400 80"><rect class="box" x="4" y="4" width="392" height="72" rx="12" ry="12" fill="rgba(255,198,198,0.999999)" stroke-width="0.4rem" stroke="rgba(255,0,0,0.999999)" /><g fill="rgba(114,28,36,0.999999)" font-size="1.2rem" font-weight="bold" font-family="Verdana, Geneva, Tahoma, sans-serif"><text x="15" y="35">Ensure the [name] attribute on an</text> <text x="15" y="60">&lt;input&gt; is not empty.</text></g></svg>');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-width: 400px;
+  padding-bottom: 80px;
 }

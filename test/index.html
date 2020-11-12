@@ -313,15 +313,20 @@
       </div>
     </section>
     <section>
-      <label for="for">This is a label with a for attribute</label>
-      <hr/>
-      <label></label>
-      <hr/>
-      <label for=""></label>
-    </section>
-    <section>
-      <h2>Description: &lt;input&gt; should always be provided a non-empty name attribute</h2>
-      <input name="input-1" type="button" value="Button"/>
+      <h2>Inputs should have a valid label assigned</h2>
+      <p>Description: &lt;input&gt; should always be provided a non-empty name attribute</p>
+      <input name="" type="button" value="Button"/>
+      
+      <label for="">Label</label>
+      <input id="input-2" name="input-2" />
+
+      <label for="input-3">Label</label>
+      <input id="input-3" />
+
+      <label>
+        Label
+        <input name="input-4" />
+      </label>
     </section>
   </body>
 </html>

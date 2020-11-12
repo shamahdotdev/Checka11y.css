@@ -1,0 +1,22 @@
+label {
+  &:not( [for] )::after { // False error when <input> is wrapped inside a <label>
+    @extend %contentError;
+    @include contentMessage(error, "Ensure that <label> is always provided with a [for] attribute.");
+  }
+
+  &[for = ""]::after {
+    @extend %contentError;
+    @include contentMessage(error, "Ensure the [for] attribute on a <label> is not empty.");
+  }
+}
+
+input {
+  &:not( [name] ) { // Not convinced this is true
+    @include imageMessage(error, 400, "Ensure that &lt;input&gt; is always", "provided with a [name] attribute.");
+  }
+
+
+  &[name = ""] {
+    @include imageMessage(error, 400, "Ensure the [name] attribute on an", "&lt;input&gt; is not empty.");
+  }
+}
